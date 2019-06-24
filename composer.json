@@ -1,0 +1,22 @@
+{
+    "name": "fabioam/tinyerp",
+    "type": "library",
+    "description": "TinyERP 2.0 API integration using PHP and CURL.",
+    "keywords": ["php", "tinyerp"],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "authors": [
+        {
+            "name": "TinyERP",
+            "email": "fabio@angeluci.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TinyERP": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
